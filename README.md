@@ -6,6 +6,8 @@ Este repositório contém os arquivos dos projetos desenvolvidos durante o curso
 
 O objetivo dos projetos é colocar em prática tudo que foi aprendido em cada etapa do curso, e neste repositório estão todos os projetos desenvolvidos.
 
+🚧 Em desenvolvimento
+
 ## 🛠️ Tecnologias utilizadas
 
 - 🌐 HTML5
@@ -37,7 +39,7 @@ O objetivo dos projetos é colocar em prática tudo que foi aprendido em cada et
 
 ## 🚀 Projetos
 
-Alguns projetos desenvolvidos:
+Projetos desenvolvidos:
 
 - ✅ Projeto 1: Tributo a banda Montell Fish
 - ✅ Projeto 2: Formulário
@@ -76,30 +78,4 @@ npm install
 npm start
 ```
 
-
-🎯 Objetivo
-Aprender desenvolvimento front-end do zero ao avançado
-Criar projetos para portfólio
-Praticar boas práticas de código
-📈 Status
-
-🚧 Em desenvolvimento
-
-🤝 Contribuição
-
 Este repositório é para fins de estudo, mas sugestões são sempre bem-vindas!
-
-📬 Contato
-GitHub: https://github.com/yumisszx
-
-
----
-
-Se quiser, posso deixar esse README **mais profissional ainda**, com:
-- badges (shields)
-- preview com imagens dos projetos
-- deploy (Vercel/Netlify)
-- versão em inglês
-
-Só me falar 👍
-::contentReference[oaicite:1]{index=1}
