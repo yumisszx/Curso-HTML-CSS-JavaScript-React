@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     font-family: Helvetica;
     background-color: #1e0000;
@@ -15,4 +20,136 @@ body{
 strong{
     font-weight: bolder;
     color: #b05409;
+}
+
+/*header*/
+header{
+    text-align: center;
+
+    .main-title{
+        font-size: 45px;
+    }
+
+    .main-paragraph{
+        font-style: italic;
+    }
+}
+
+/*imagem destaque*/
+.featured-image{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 18px;
+
+    figure{
+        img{
+            box-shadow:1px 1px 20px #00000045;
+        }
+
+        figcaption{
+            font-size: 13px;
+            font-style: italic;
+        }
+    }
+}
+
+/*biografia*/
+.biography-container{
+    text-align: justify;
+    padding: 25px 0;
+    margin: 25px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+    h2{
+        text-align: center;
+        font-size: 30px;
+        color: #1e0000;
+    }
+
+    p{
+        line-height: 1.5;
+        margin-top: 10px;
+        text-indent: 30px;
+    }
+}
+
+/*quotes*/
+.quotes-container{
+    background-color: #f1f1f1;
+    padding: 40px;
+    border-radius: 12px;
+
+    blockquote{
+        font-weight: bold;
+        font-size: 30px;
+        padding-left: 50px;
+    }
+
+    p{
+        font-style: italic;
+        margin-top: 8px;
+    }
+}
+
+.curiosities-container{
+    padding: 25px 30px;
+    margin: 25px 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+
+    h2{
+        text-align: center;
+        font-size: 30px;
+        color: #1e0000;
+    }
+
+    ul{
+        margin: 10px;
+
+        li{
+        height: 30px;
+        margin-top: 10px;
+    }
+    }
+    
+}
+
+/*imagem 2*/
+.image-bold{
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+
+    figure{
+        img{
+            box-shadow:1px 1px 20px #00000045;
+            max-width: 1080px;
+        }
+
+        figcaption{
+            font-size: 13px;
+            font-style: italic;
+        }
+    }
+}
+
+/*mais informações*/
+.moreinfo-container{
+    margin-top: 20px;
+    text-align: center;
+
+    h2{
+        font-size: 30px;
+    }
+    p{
+        margin-top: 15px;
+        font-size: 20px;
+        
+        a{
+            text-decoration: double;
+            color: #b05409;
+            font-weight: bold;
+        }
+    }
 }
