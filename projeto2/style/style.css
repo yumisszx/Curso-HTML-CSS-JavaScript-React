@@ -77,3 +77,45 @@ header{
         margin-bottom: 20px;
     }
 }
+
+.required-field{
+    color: #d80835;
+}
+
+.box-input{
+    margin-bottom: 35px;
+
+    p{
+        margin-bottom: 15px;
+    }
+}
+
+.block{
+    display: block;
+}
+
+.optional-box{
+    display: inline-block;
+    margin: 0 30px 30px 0;
+}
+
+.optional-list li{
+    list-style: none;
+}
+
+.btn-submit{
+    background-color: #89959B;
+    color: #fff;
+    border: 2px solid transparent;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: 0.5s;
+
+    &:hover{
+        background-color: #fff;
+        border-color: #89959B;
+        color: #89959B;
+    }
+}
