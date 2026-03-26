@@ -60,9 +60,32 @@ p {
             border-radius: 5px;
 
             &:hover{
-                background-color: #22bb5f;
                 color: #fff;
+                background-color: #22bb5f;
             }
         }
+    }
+}
+
+/*main banner*/
+.main-banner{
+    background-image: url("../assets/mainbanner.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+
+    h1,p{
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        text-shadow: #000 3px 2px 3px;
+    }
+
+    h1{
+        font-size: 54px;
+    }
+
+    p{
+        font-size: 34px;
     }
 }
