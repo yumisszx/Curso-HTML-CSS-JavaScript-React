@@ -299,3 +299,95 @@ footer{
     font-weight: bold;
     margin: 50px 0 100px ;
 }
+
+/*responsividade*/
+
+/*celular - 576px*/
+@media(max-width: 576px){
+    html,body{
+        overflow-x: hidden;
+    }
+
+    .navbar-container{
+        padding: 0 1rem;
+
+        .navbar-items{
+            padding-right: 1rem;
+
+            li{
+                font-size: 12px;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .mian-banner{
+        p{
+            padding: 0 2rem;
+        }
+    }
+
+    .services-container{
+        ul{
+            flex-direction: column;
+        }
+    }
+
+    .plans-container{
+        flex-direction: column;
+        width: 100%;
+
+        .plan{
+        align-items: center;
+        width: 100%;
+        max-width: 100%;
+        margin: 0 0;
+        }
+    }
+
+    .searchdomain-container{
+        h2{
+            font-size: 28px;
+        }
+
+        input[type="text"]{
+            width: 100%;
+        }
+    }
+
+    .contact-container{
+        margin: 3rem 2rem;
+
+        input,textarea{
+            width: 100%;
+            margin: 10px 0;
+        }
+    }
+
+}
+
+/*small laptops - 1100px*/
+@media (max-width: 1100px){
+    .plans-container{
+        width: 95%;
+
+        .plan{
+            margin: 0 5px;
+        }
+    }
+}
+
+/*tablet - 900px*/
+@media(max-width: 900px){
+    .main-banner {
+        p{
+            font-size: 32px;
+            padding: 0 6rem;
+        }
+    }
+
+    .searchdomain-container{
+        padding: 2rem 4rem;
+    }
+}
+
