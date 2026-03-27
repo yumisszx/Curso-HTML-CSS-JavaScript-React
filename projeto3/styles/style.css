@@ -277,7 +277,7 @@ p {
         margin: 0 10px 20px;
     }
 
-    texarea{
+    textarea{
         display: block;
         margin: 0 auto 20px;
         width: 470px;
@@ -291,4 +291,11 @@ p {
         color: #fff;
         cursor: pointer;
     }
+}
+
+/*footer*/
+footer{
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0 100px ;
 }
