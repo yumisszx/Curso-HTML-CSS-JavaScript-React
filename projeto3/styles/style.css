@@ -253,3 +253,42 @@ p {
         }
     }
 }
+
+/*contatc*/
+.contact-container{
+    text-align: center;
+    padding: 5rem 0 2rem 0;
+
+    h2{
+        font-size: 36px;
+    }
+
+    p{
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    input,textarea{
+        width: 200px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        margin: 0 10px 20px;
+    }
+
+    texarea{
+        display: block;
+        margin: 0 auto 20px;
+        width: 470px;
+        height: 150px;
+    }
+
+    input[type="submit"]{
+        display: block;
+        margin: 0 auto;
+        background-color: #2cc76a;
+        color: #fff;
+        cursor: pointer;
+    }
+}
