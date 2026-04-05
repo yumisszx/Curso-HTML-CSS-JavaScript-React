@@ -8,11 +8,11 @@ ano.textContent = new Date().getFullYear();
 
 //tema
 btn.addEventListener("click", () =>{
-    const escuro = root.getAttribute("data-tema") === 'escuro'
+    const escuro = root.getAttribute("data-tema") === 'escuro';
 
     if(escuro){
-        root.removeAttribute("data-tema")
+        root.removeAttribute("data-tema");
     }else{
-        root.setAttribute("data-tema", "escuro")
+        root.setAttribute("data-tema", "escuro");
     }
 })
